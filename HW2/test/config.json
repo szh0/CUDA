@@ -1,0 +1,31 @@
+{
+    "fc": {
+        "batchsize": 10,
+        "in_features": 32,
+        "out_features": 64
+    },
+    "conv": {
+        "batchsize": 10,
+        "channels_in": 3,
+        "channels_out": 4,
+        "height": 28,
+        "width": 28,
+        "ksize": 3,
+        "pad": 1,
+        "stride": 1
+    },
+    "maxpool": {
+        "batchsize": 10,
+        "channels": 3,
+        "height": 28,
+        "width": 28,
+        "ksize": 2,
+        "pad": 0,
+        "stride": 2,
+        "//": "stride should be equal to ksize"
+    },
+    "celoss": {
+        "batchsize": 2,
+        "labels": 10
+    }
+}

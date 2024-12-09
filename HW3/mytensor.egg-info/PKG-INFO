@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mytensor
+Version: 0.0.1
+Author: Eureka
+Author-email: 2300012969@pku.edu.cn
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Requires-Dist: torch
